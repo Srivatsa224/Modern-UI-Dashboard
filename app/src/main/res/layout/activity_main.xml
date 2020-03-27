@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".MainActivity">
     
@@ -16,20 +16,24 @@
             android:id="@+id/tvdb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
             android:fontFamily="sans-serif"
-            android:text="My Dashboard"
-            android:textColor="@color/white"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:layout_margin="20dp"/>
+            android:layout_gravity="center"
+            android:text="@string/dashboard"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
         <GridLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:rowCount="4"
+            android:rowCount="5"
             android:columnCount="2"
             android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
             android:alignmentMode="alignMargins"
-            android:layout_gravity="center_horizontal"
             android:columnOrderPreserved="false">
 
             <androidx.cardview.widget.CardView
@@ -43,6 +47,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_gravity="center"
                     android:orientation="vertical"
                     android:gravity="center">
 

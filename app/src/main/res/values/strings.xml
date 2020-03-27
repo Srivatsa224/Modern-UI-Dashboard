@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Modern-UI-Dashboard</string>
+    <string name="app_name"><u></u>Modern-UI-Dashboard</string>
+    <string name="dashboard"><u>My Dashboard</u></string>
+
 </resources>
